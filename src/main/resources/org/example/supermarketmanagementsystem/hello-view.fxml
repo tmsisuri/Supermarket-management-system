@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.supermarketmanagementsystem.HelloController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="448.0" prefWidth="666.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="289.0" fitWidth="333.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/green-grocery-in-shopping-cart-5857ld.png" />
+                     </image></ImageView>
+               </children></Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label layoutX="10.0" layoutY="385.0" prefHeight="20.0" prefWidth="150.0" text="Don't have an account?">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="115.0" layoutY="24.0" text="Welcome" textFill="#0d0d0d">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="98.0" layoutY="93.0" prefHeight="25.0" prefWidth="210.0" />
+                  <Button contentDisplay="RIGHT" layoutX="43.0" layoutY="292.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="160.0" style="-fx-background-color: orange;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <HBox prefHeight="30.0" prefWidth="141.0">
+                           <children>
+                              <ImageView fitHeight="33.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/download.png" />
+                                 </image>
+                                 <effect>
+                                    <ColorAdjust brightness="-0.11" contrast="0.02" />
+                                 </effect>
+                              </ImageView>
+                              <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="43.0" prefWidth="84.0" text="Close" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="RIGHT" layoutX="43.0" layoutY="224.0" mnemonicParsing="false" onAction="#onLogin" prefHeight="30.0" prefWidth="160.0" style="-fx-background-color: orange;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <HBox prefHeight="30.0" prefWidth="141.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/login.jpg" />
+                                 </image>
+                                 <effect>
+                                    <ColorAdjust brightness="-0.11" contrast="0.02" />
+                                 </effect></ImageView>
+                              <Label alignment="CENTER" prefHeight="66.0" prefWidth="112.0" text="Login">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font></Label>
+                           </children>
+                        </HBox>
+                     </graphic>
+                  </Button>
+                  <Label layoutX="14.0" layoutY="95.0" text="User Name">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="141.0" text="Password">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <PasswordField layoutX="98.0" layoutY="138.0" prefHeight="25.0" prefWidth="210.0" />
+                  <Button fx:id="signUp" layoutX="177.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#registration" style="-fx-background-color: blue;" text="Sign Up">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+               <effect>
+                  <ColorAdjust brightness="0.03" contrast="-0.22" hue="0.08" saturation="-0.77" />
+               </effect>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
