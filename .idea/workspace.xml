@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c0e2bf-a455-43b2-aaa4-e6c9ba9d462b" name="Changes" comment="create dashboard">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/supermarketmanagementsystem/HelloController1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/supermarketmanagementsystem/HelloController1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/supermarketmanagementsystem/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/supermarketmanagementsystem/HomePage.java" afterDir="false" />
+    <list default="true" id="51c0e2bf-a455-43b2-aaa4-e6c9ba9d462b" name="Changes" comment="create button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/supermarketmanagementsystem/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/supermarketmanagementsystem/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/supermarketmanagementsystem/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/supermarketmanagementsystem/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/supermarketmanagementsystem/hello-view1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/supermarketmanagementsystem/hello-view1.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java course/Week 1/jdbc1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,11 +63,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715263981681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create button">
+      <option name="closed" value="true" />
+      <created>1715352124888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715352124888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="create dashboard" />
+    <MESSAGE value="create button" />
+    <option name="LAST_COMMIT_MESSAGE" value="create button" />
   </component>
 </project>
