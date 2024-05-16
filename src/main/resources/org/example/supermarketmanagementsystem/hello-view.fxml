@@ -95,7 +95,7 @@
                      </font></PasswordField>
                   <Button fx:id="signUp" layoutX="160.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#registration" style="-fx-background-color: transparent;" text="Sign Up" underline="true">
                      <font>
-                        <Font name="System Bold" size="14.0" />
+                        <Font name="System Bold Italic" size="14.0" />
                      </font>
                   </Button>
                </children>
